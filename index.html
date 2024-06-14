@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>multiple modal windows</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script defer src="js/script.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<div class="card">
+					<div class="card__item">
+						<div class="card__img">
+							<img src="img/camera.jpg" alt="camera" />
+						</div>
+						<div class="card__body">
+							<div class="card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto sed voluptates placeat deserunt culpa! Suscipit magnam possimus, in velit iusto dicta, unde
+								explicabo sint quisquam, eveniet quam debitis laborum.
+							</div>
+							<div class="card__buttons">
+								<div class="card__btn card__btn-more" data-modal="1">Learn more</div>
+								<div class="card__btn card__btn-watch" data-modal="2">Watch video</div>
+							</div>
+						</div>
+					</div>
+					<div class="card__item">
+						<div class="card__img">
+							<img src="img/headphones.jpg" alt="headphones" />
+						</div>
+						<div class="card__body">
+							<div class="card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto sed voluptates placeat deserunt culpa! Suscipit magnam possimus, in velit iusto dicta, unde
+								explicabo sint quisquam, eveniet quam debitis laborum.
+							</div>
+							<div class="card__buttons">
+								<div class="card__btn card__btn-more" data-modal="3">Learn more</div>
+								<div class="card__btn card__btn-watch" data-modal="4">Watch video</div>
+							</div>
+						</div>
+					</div>
+					<div class="card__item">
+						<div class="card__img">
+							<img src="img/sun_glasses.jpg" alt="camera" />
+						</div>
+						<div class="card__body">
+							<div class="card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto sed voluptates placeat deserunt culpa! Suscipit magnam possimus, in velit iusto dicta, unde
+								explicabo sint quisquam, eveniet quam debitis laborum.
+							</div>
+							<div class="card__buttons">
+								<div class="card__btn card__btn-more" data-modal="5">Learn more</div>
+								<div class="card__btn card__btn-watch" data-modal="6">Watch video</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal" id="modal-1">
+					<div class="modal__content">
+						<h3>Photo camera</h3>
+						<div class="modal__text">
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+						</div>
+						<button class="modal__btn">
+							<div class="modal__close">
+								Got it!
+							</div>
+						</button>
+					</div>
+				</div>
+				<div class="modal" id="modal-2">
+					<span><i class="fas fa-times"></i></span>
+					<video src="img/camera_vid.mov" muted loop autoplay controls></video>
+				</div>
+				<div class="modal" id="modal-3">
+					<div class="modal__content">
+						<h3>headphones</h3>
+						<div class="modal__text">
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+						</div>
+						<button class="modal__btn">
+							<div class="modal__close">
+								Got it!
+							</div>
+						</button>
+					</div>
+				</div>
+				<div class="modal" id="modal-4">
+					<span><i class="fas fa-times"></i></span>
+					<video src="img/headphones.mp4" muted loop autoplay controls></video>
+				</div>
+				<div class="modal" id="modal-5">
+					<div class="modal__content">
+						<h3>Sunglasses</h3>
+						<div class="modal__text">
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam placeat, possimus excepturi animi dicta qui illo nostrum quaerat quibusdam debitis cum ad a minus.
+								Dignissimos vitae reiciendis nobis iste labore?
+							</p>
+						</div>
+						<button class="modal__btn">
+							<div class="modal__close">
+								Got it!
+							</div>
+						</button>
+					</div>
+				</div>
+				<div class="modal" id="modal-6">
+					<span><i class="fas fa-times"></i></span>
+					<video src="img/sunglasses_vid.mov" muted loop autoplay controls></video>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</body>
+</html>
